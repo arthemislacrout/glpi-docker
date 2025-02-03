@@ -464,6 +464,9 @@ a2enmod rewrite
 #======================================================================================
 # Cria a tarefa cron para executar as rotinas automáticas
 echo "*/2 * * * * www-data /usr/bin/php /var/www/html/glpi/front/cron.php" > /etc/cron.d/glpi
+echo "* * * * * /usr/bin/php /var/www/html/glpi/front/cron.php --force mailgate" > /etc/cron.d/glpi
+echo "* * * * * /usr/bin/php /var/www/html/glpi/front/cron.php --force queuednotification"  > /etc/cron.d/glpi
+
 
 # Inicia serviço cron
 service cron start
