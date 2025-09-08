@@ -1,16 +1,5 @@
 #!/bin/bash
 #-------------------------------------------------------------------------------------
-# CITRAIT - EXCELENCIA EM TI
-# GLPI Docker Deployment
-# @Version: 1.0
-# @Author: luciano@citrait.com.br
-# @Description: Deploy GLPI application using docker-compose
-# Compatible with glpi 10.0.5+
-#-------------------------------------------------------------------------------------
-# Ref.: https://faq.teclib.com/03_knowledgebase/procedures/install_glpi/#how-to-create-a-virtualhost-dedicated-to-glpi
-
-
-#-------------------------------------------------------------------------------------
 #
 #                          VARIAVEIS AUXILIARES
 #
